@@ -18,24 +18,38 @@ let kLoginButtonHeight = 44
 
 class LDLoginViewController: UIViewController {
     
+    /// MARK 用户名
     fileprivate lazy var userTextField: UITextField = {
-        let userTextField = UITextField()
+        var userTextField = UITextField()
         userTextField.placeholder = "请输入用户名"
+        userTextField.borderStyle = .roundedRect
+        userTextField.font = UIFont.systemFont(ofSize: 14)
         return userTextField
     }()
     
+    
+    /// MARK 密码
     fileprivate lazy var pwdTextField: UITextField = {
-        let pwdTextField = UITextField()
+        var pwdTextField = UITextField()
         pwdTextField.placeholder = "请输入密码"
+        pwdTextField.borderStyle = .roundedRect
+        pwdTextField.font = UIFont.systemFont(ofSize: 14)
         return pwdTextField
     }()
     
+    
+    /// MARK 登录
     fileprivate lazy var loginButton: UIButton = {
-        let loginButton = UIButton()
+        var loginButton = UIButton()
         loginButton.setTitle("登录", for: .normal)
-        loginButton.backgroundColor = UIColor.orange
+        loginButton.backgroundColor = UIColor.lightGray
+        loginButton.isEnabled = false
+        loginButton.layer.cornerRadius = 5;
+        loginButton.layer.masksToBounds = true
         return loginButton
     }()
+    
+    
     
 }
 
@@ -46,37 +60,42 @@ extension LDLoginViewController {
         
         setup()
     }
+    
 }
 
 extension LDLoginViewController {
     
-    func setup() -> Void {
+    func setup() {
         
         setNavgation()
         
         setUI()
+        
+        setConstraints()
     }
     
-    func setNavgation() -> Void {
+    func setNavgation() {
         navigationItem.title = "登录"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "注册", style: .plain, target: self, action: #selector(rightBarButtonItemClick))
         view.backgroundColor = UIColor.white
     }
     
-    func setUI() -> Void {
+    func setUI() {
         view.addSubview(userTextField)
         view.addSubview(pwdTextField)
         view.addSubview(loginButton)
     }
     
-    func setConstraints() -> Void {
+    func setConstraints() {
         userTextField.snp.makeConstraints { (make) in
             make.top.equalTo(view).offset(kNavHeight + kTopMargin)
             make.left.equalTo(view).offset(kTopMargin)
             make.right.equalTo(view).offset(-kTopMargin)
+            make.height.equalTo(30)
         }
         
         pwdTextField.snp.makeConstraints { (make) in
-            make.left.right.equalTo(userTextField)
+            make.left.right.height.equalTo(userTextField)
             make.top.equalTo(userTextField.snp.bottom).offset(kTopMargin)
         }
         
@@ -88,5 +107,7 @@ extension LDLoginViewController {
         }
     }
     
-    
+    @objc func rightBarButtonItemClick() {
+        navigationController?.pushViewController(LDRegisterViewController(), animated: true)
+    }
 }

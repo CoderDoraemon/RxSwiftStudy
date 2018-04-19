@@ -1,14 +1,26 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '8.0'
 
 target 'RxSwiftStudy' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'NSObject+Rx'
+    pod 'Moya/RxSwift'
     pod 'PKHUD'
     pod 'RxDataSources'
+    pod 'Action'
     pod 'IQKeyboardManagerSwift'
     pod 'SnapKit'
+    pod 'HandyJSON'
+    pod 'Then'
+    pod 'Kingfisher'
+    pod 'Reusable'
+
+    pod 'MJRefresh'
+
 
   # Pods for RxSwiftStudy
 

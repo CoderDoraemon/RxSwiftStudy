@@ -13,6 +13,15 @@
 		1807DBA1208752D5007D965D /* RxSwiftStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807DBA0208752D5007D965D /* RxSwiftStudyTests.swift */; };
 		1807DBAC208752D5007D965D /* RxSwiftStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807DBAB208752D5007D965D /* RxSwiftStudyUITests.swift */; };
 		1807DBC420875539007D965D /* LDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807DBC320875539007D965D /* LDLoginViewController.swift */; };
+		18DA77BB20882A9600C2C97F /* LDRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77BA20882A9600C2C97F /* LDRegisterViewController.swift */; };
+		18DA77BF2088303000C2C97F /* LDRegisterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77BE2088303000C2C97F /* LDRegisterVM.swift */; };
+		18DA77D4208848E700C2C97F /* LDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77D3208848E700C2C97F /* LDHomeViewController.swift */; };
+		18DA77D72088491B00C2C97F /* LDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77D62088491B00C2C97F /* LDNavigationController.swift */; };
+		18DA77D92088492C00C2C97F /* LDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77D82088492C00C2C97F /* LDTabBarController.swift */; };
+		18DA77DB2088640400C2C97F /* LDHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77DA2088640400C2C97F /* LDHomeModel.swift */; };
+		18DA77DD20886A6C00C2C97F /* LDHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77DC20886A6C00C2C97F /* LDHomeCell.swift */; };
+		18DA77DF2088772A00C2C97F /* LDHomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77DE2088772A00C2C97F /* LDHomeVM.swift */; };
+		18DA77E420887B2D00C2C97F /* LDNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA77E320887B2D00C2C97F /* LDNetworkTool.swift */; };
 		54E0B17643A18EB1008C3D0D /* Pods_RxSwiftStudyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E4F059079A4FF030F9A562 /* Pods_RxSwiftStudyUITests.framework */; };
 		64DCAEF40E41C1C2DE2958A5 /* Pods_RxSwiftStudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CA521FCB3765C9819877F /* Pods_RxSwiftStudyTests.framework */; };
 		6EE574217129786E2DC9B836 /* Pods_RxSwiftStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FFCE28D7153E6A95C002E1 /* Pods_RxSwiftStudy.framework */; };
@@ -49,6 +58,15 @@
 		1807DBAB208752D5007D965D /* RxSwiftStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftStudyUITests.swift; sourceTree = "<group>"; };
 		1807DBAD208752D5007D965D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1807DBC320875539007D965D /* LDLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDLoginViewController.swift; sourceTree = "<group>"; };
+		18DA77BA20882A9600C2C97F /* LDRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDRegisterViewController.swift; sourceTree = "<group>"; };
+		18DA77BE2088303000C2C97F /* LDRegisterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDRegisterVM.swift; sourceTree = "<group>"; };
+		18DA77D3208848E700C2C97F /* LDHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDHomeViewController.swift; sourceTree = "<group>"; };
+		18DA77D62088491B00C2C97F /* LDNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDNavigationController.swift; sourceTree = "<group>"; };
+		18DA77D82088492C00C2C97F /* LDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDTabBarController.swift; sourceTree = "<group>"; };
+		18DA77DA2088640400C2C97F /* LDHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDHomeModel.swift; sourceTree = "<group>"; };
+		18DA77DC20886A6C00C2C97F /* LDHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDHomeCell.swift; sourceTree = "<group>"; };
+		18DA77DE2088772A00C2C97F /* LDHomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDHomeVM.swift; sourceTree = "<group>"; };
+		18DA77E320887B2D00C2C97F /* LDNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDNetworkTool.swift; sourceTree = "<group>"; };
 		1A4CA521FCB3765C9819877F /* Pods_RxSwiftStudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftStudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B8C18E08872CEAFA46FD32 /* Pods-RxSwiftStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftStudy/Pods-RxSwiftStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		53FFCE28D7153E6A95C002E1 /* Pods_RxSwiftStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +160,8 @@
 		1807DBBE2087552B007D965D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				18DA77E02088774000C2C97F /* Tools */,
+				18DA77D52088490C00C2C97F /* Main */,
 				1807DBBF2087552B007D965D /* Controllers */,
 				1807DBC02087552B007D965D /* Models */,
 				1807DBC12087552B007D965D /* ViewModels */,
@@ -154,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				1807DBC320875539007D965D /* LDLoginViewController.swift */,
+				18DA77BA20882A9600C2C97F /* LDRegisterViewController.swift */,
+				18DA77D3208848E700C2C97F /* LDHomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +183,7 @@
 		1807DBC02087552B007D965D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				18DA77DA2088640400C2C97F /* LDHomeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +191,8 @@
 		1807DBC12087552B007D965D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				18DA77BE2088303000C2C97F /* LDRegisterVM.swift */,
+				18DA77DE2088772A00C2C97F /* LDHomeVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -175,8 +200,26 @@
 		1807DBC22087552B007D965D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18DA77DC20886A6C00C2C97F /* LDHomeCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		18DA77D52088490C00C2C97F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18DA77D62088491B00C2C97F /* LDNavigationController.swift */,
+				18DA77D82088492C00C2C97F /* LDTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18DA77E02088774000C2C97F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18DA77E320887B2D00C2C97F /* LDNetworkTool.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		C763FE6449DB0C8CCE2EFDF1 /* Frameworks */ = {
@@ -213,7 +256,7 @@
 				1807DB84208752D2007D965D /* Sources */,
 				1807DB85208752D2007D965D /* Frameworks */,
 				1807DB86208752D2007D965D /* Resources */,
-				E31EADA43CE1622F9F258354 /* [CP] Embed Pods Frameworks */,
+				6D8E610FE7ECC6060EDC7ABB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,30 +394,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E31EADA43CE1622F9F258354 /* [CP] Embed Pods Frameworks */ = {
+		6D8E610FE7ECC6060EDC7ABB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftStudy/Pods-RxSwiftStudy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
 				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +487,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DA77E420887B2D00C2C97F /* LDNetworkTool.swift in Sources */,
+				18DA77BB20882A9600C2C97F /* LDRegisterViewController.swift in Sources */,
+				18DA77D72088491B00C2C97F /* LDNavigationController.swift in Sources */,
+				18DA77BF2088303000C2C97F /* LDRegisterVM.swift in Sources */,
+				18DA77DF2088772A00C2C97F /* LDHomeVM.swift in Sources */,
+				18DA77D92088492C00C2C97F /* LDTabBarController.swift in Sources */,
 				1807DBC420875539007D965D /* LDLoginViewController.swift in Sources */,
+				18DA77D4208848E700C2C97F /* LDHomeViewController.swift in Sources */,
+				18DA77DB2088640400C2C97F /* LDHomeModel.swift in Sources */,
+				18DA77DD20886A6C00C2C97F /* LDHomeCell.swift in Sources */,
 				1807DB8C208752D2007D965D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

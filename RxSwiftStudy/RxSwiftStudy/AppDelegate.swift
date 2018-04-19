@@ -17,13 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let vc: LDLoginViewController = LDLoginViewController()
-        
-        let nav: UINavigationController = UINavigationController(rootViewController: vc)
+        let tab: LDTabBarController = LDTabBarController()
         
         window = UIWindow(frame: UIScreen.main.bounds)
 
-        window?.rootViewController = nav
+        window?.rootViewController = tab
         
         window?.makeKeyAndVisible()
         
